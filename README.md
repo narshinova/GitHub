@@ -1,7 +1,7 @@
 # GitHub
 <h1 align="center">GitHub.HW_2</h1>
 
-** 1. На локальном репозитории сделать ветки для:**<br>
+**1. На локальном репозитории сделать ветки для:**
 
 <h5>-Postman<br>
 -Jmeter<br>
@@ -49,19 +49,19 @@ ID
 <i>выйти из режима редактирования с сохранением - Esc :wq Enter </i>
 
 
-**4.Запушить структуру багрепорта на внешний репозиторий**<br>
+**4. Запушить структуру багрепорта на внешний репозиторий**<br>
 ```
 git add .; git commit -m "add BugReports_structure.txt"; git push
 ```
-**5.Вмержить ветку Bag Reports в Main**<br>
+**5. Вмержить ветку Bag Reports в Main**<br>
 ```
 git checkout main; git merge Bug_Reports
 ```
-**6.Запушить main на внешний репозиторий.**
+**6. Запушить main на внешний репозиторий.**
 ```
 git push
 ```
-**7.В ветке CheckLists набросать структуру чек листа.**<br>
+**7. В ветке CheckLists набросать структуру чек листа.**<br>
 ```
 git checkout CheckLists
 vim CheckLists_structure.txt
@@ -74,7 +74,7 @@ vim CheckLists_structure.txt
 ```
 <i>выйти из режима редактирования с сохранением - Esc :wq Enter</i>
 
-**8.Запушить структуру на внешний репозиторий**
+**8. Запушить структуру на внешний репозиторий**
 ```
 git add .; git commit -m "add CheckLists_structure.txt"; git push
 ```

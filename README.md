@@ -1,14 +1,16 @@
 # GitHub
 <h1 align="center">GitHub.HW_2</h1>
 
-** 1. На локальном репозитории сделать ветки для:**
--Postman
--Jmeter
--CheckLists
--Bag Reports
--SQL
--Charles
--Mobile testing
+** 1. На локальном репозитории сделать ветки для:**<br>
+
+<h5>-Postman<br>
+-Jmeter<br>
+-CheckLists<br>
+-Bag Reports<br>
+-SQL<br>
+-Charles<br>
+-Mobile testing</h5><br>
+
 ```
 git clone https://github.com/marg0sh/GitHub.git
 cd GitHub
@@ -24,7 +26,7 @@ git push -u origin Postman; git push -u origin Jmeter; git push -u origin CheckL
 
     git push -u origin --all
 		
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+**3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта**
 ````
 git checkout BugReports
 vim BugReports_structure.txt
@@ -47,37 +49,46 @@ ID
 <i>выйти из режима редактирования с сохранением - Esc :wq Enter </i>
 
 
-Запушить структуру багрепорта на внешний репозиторий
+**4.Запушить структуру багрепорта на внешний репозиторий**<br>
+```
 git add .; git commit -m "add BugReports_structure.txt"; git push
-
-Вмержить ветку Bag Reports в Main
+```
+**5.Вмержить ветку Bag Reports в Main**<br>
+```
 git checkout main; git merge Bug_Reports
-
-Запушить main на внешний репозиторий.
+```
+**6.Запушить main на внешний репозиторий.**
+```
 git push
-
-В ветке CheckLists набросать структуру чек листа.
+```
+**7.В ветке CheckLists набросать структуру чек листа.**<br>
+```
 git checkout CheckLists
 vim CheckLists_structure.txt
-режим редактирования - i
-
+```
+<i>режим редактирования - i</i>
+```
 Порядковый номер
 Формулировка задачи
 Отметка о выполнении либо статусе проверки
+```
+<i>выйти из режима редактирования с сохранением - Esc :wq Enter</i>
 
-выйти из режима редактирования с сохранением - Esc :wq Enter
-
-Запушить структуру на внешний репозиторий
+**8.Запушить структуру на внешний репозиторий**
+```
 git add .; git commit -m "add CheckLists_structure.txt"; git push
-
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+```
+**9. На внешнем репозитории сделать Pull Request ветки CheckLists в main**<br>
+```
 Pull requests
 CheckLists
 Compare & pull request
 Create pull request
 Merge pull request
 Confirm merge
-
-10. Синхронизировать Внешнюю и Локальную ветки Main
+```
+**10. Синхронизировать Внешнюю и Локальную ветки Main**<br>
+```
 git fetch
 git pull
+```
